@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import oceanWaves from "@/assets/ocean-waves-hero.jpg";
-import logo from "@/assets/bright-coast-logo.jpg";
+import logo from "@/assets/bright-coast-logo.png";
 import ContactForm from "./ContactForm";
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
             <img 
               src={logo} 
               alt="Bright Coast AI" 
-              className="h-24 md:h-32 w-auto object-contain"
+              className="h-36 md:h-40 w-auto object-contain"
             />
           </div>
           
