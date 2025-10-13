@@ -41,7 +41,7 @@ const Hero = () => {
           </h1>
           
           {/* Subtext */}
-          <p className="text-2xl md:text-3xl lg:text-4xl text-secondary font-medium mb-8 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+          <p className="text-2xl md:text-3xl lg:text-4xl text-foreground font-medium mb-8 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
             Automation that feels natural
           </p>
           
@@ -60,24 +60,6 @@ const Hero = () => {
             >
               Get in Touch
             </Button>
-          </div>
-        </div>
-        
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in" style={{ animationDelay: "1.2s" }}>
-          <div className="flex flex-col items-center gap-2 text-primary/60">
-            <span className="text-sm uppercase tracking-wider">Scroll</span>
-            <svg 
-              className="w-6 h-6 animate-bounce" 
-              fill="none" 
-              strokeLinecap="round" 
-              strokeLinejoin="round" 
-              strokeWidth="2" 
-              viewBox="0 0 24 24" 
-              stroke="currentColor"
-            >
-              <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-            </svg>
           </div>
         </div>
       </section>
