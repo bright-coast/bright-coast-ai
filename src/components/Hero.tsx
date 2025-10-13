@@ -41,7 +41,7 @@ const Hero = () => {
           </h1>
           
           {/* Subtext */}
-          <p className="text-2xl md:text-3xl lg:text-4xl text-foreground font-medium mb-8 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+          <p className="text-2xl md:text-3xl lg:text-4xl text-ocean-teal-dark font-medium mb-8 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
             Automation that feels natural
           </p>
           
